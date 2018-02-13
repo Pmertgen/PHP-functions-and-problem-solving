@@ -1,9 +1,17 @@
 <?php 
 
-$S = 4;
+function TypeCheck($i) 
+{
 
-if (intval($S) == 0) {
-    echo "Bad String";
-} else {
-    echo intval($S);
+	if (intval($i) == 0) {
+
+  	  echo "Bad String";
+
+	} else {
+
+    echo intval($i);
+
+	}
 }
+
+Typecheck();
