@@ -56,6 +56,7 @@ $d-> ComputeDifference();
 print ($d->maximumDifference);
 
 
+
 /*
 Given an array of scores in any game. This algorithm counts the times you break your positive or negative record. 
 The array can have any length.
@@ -82,4 +83,12 @@ function breakingRecords($score) {
             $negRec = $score[$i];
         }
     } echo $posCount . " " . $negCount;
+}
+
+  /*
+Given an integer,n , print its first 10 multiples. Each multiple n*i should be printed on a new line in the form: n x i = result.
+*/
+
+for ($i = 1; $i<= 10; $i++) {
+    echo "$n x $i = " . $n*$i . "\n";
 }
